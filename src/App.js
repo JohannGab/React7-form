@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import FormEmployee from './Components/FormEmployee';
+import Films from './Components/Films';
+
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
@@ -20,6 +24,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <FormEmployee /> <br></br>
+        <Films />
       </div>
     );
   }
